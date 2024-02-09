@@ -8,11 +8,11 @@
   }
 
 html {
-    background-image: url(fondopinchos.jpg);
+    background-image: url(img/fondopinchos.jpg);
 }
 
 
-table, tr, td {
+table#grupos tr td {
 margin-top: auto;
 border-style: solid;
 border-color: #ff000038;
@@ -121,15 +121,19 @@ nav {
     footer {
         text-align: right;
         margin-top: 45px;
-        color: black;
         font-size: large;
         margin-right: 0px;
-    }    
-.tdfooter{
-    text-align: right;
-}    
 
+    }  
+
+    table#footer tr{
+    background-color: black;
+    border: solid;
+    border-color: whitesmoke;
+    margin-right: 0px;
+    }
     
+
 .icons{
     text-align: right;
 }
