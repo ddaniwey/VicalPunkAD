@@ -1,6 +1,114 @@
+@font-face {
+    font-family: Bombing;
+    src: url(Bombing.ttf);
+  }
+  @font-face {
+    font-family: PunkFearofa;
+    src: url(Fearofapunkplanet.ttf);
+  }
+
+html {
+    background-image: url(img/fondopinchos.jpg);
+}
+tr{
+    color: white;
+    background-color: black;
+}
+
+td{
+    width: 30%;
+    padding: 1%;
+    font-size: 18px;
+}
+.logo{
+    margin: auto;
+    width: 133px;
+}
+.navegador{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-decoration:none;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.298);
+    padding: 5px;
+    box-shadow: 2px 2px #888888;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    padding: 16px;
+    color: whitesmoke;
+    text-shadow: 2px, 2px, purple;
+    font-size: 22px;
+}
+
+.linav a:hover {
+    background-color: red;
+}
+a:active {
+    color: yellow;
+
+}
+
+.linav{
+    display: inline;
+    padding-left: 10px;
+   
+}
+
+.ulnav{
+   list-style-type: none;
+   margin: 0;
+   padding: 10px;
+
+}
+
+
+
 table#registro{
 margin-top: auto;
 border-style: solid;
 border-color: #ff000038;
 border-collapse: collapse;
+background-color: black;
+margin-right: 200px;
+}
+
+#registraoi{
+    text-align: center;
+    font-size: 99px;
+    color: white;
+    font-weight: 24;
+    font-family: Bombing;
+    background-color: #000000c0;
+    box-shadow: 9px 9px black;
+}
+
+
+
+body { margin-left: 150px;
+    margin-right: 150px;
+}    
+
+
+header {
+    background-color: rgb(240, 240, 240, 0.5);
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}    
+  
+
+nav {
+
+    width: 100%;
+    color: purple;
+}    
+
+.icons{
+    text-align: right;
 }

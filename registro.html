@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="img/LogoVikalPunk.jpg">
-        <link rel="stylesheet" href="ConoceGrupos.css">
+        <link rel="stylesheet" href="registro.css">
         <title>Conoce grupos</title>
     </head>
 
@@ -26,11 +26,11 @@
             </ul>
         </nav>
 
-<h1>Registrate Oi!</h1>
+<p id="registraoi">Registrate Oi!</p>
 
         <table id="registro" >
             <form>
-                <tr>
+            <tr>
                 <td>
                 <label for="nombre">Nombre:</label><br>
                 <input type="text" id="nombre" name="nombre" value="Daniel"><br>
@@ -38,7 +38,47 @@
                 <input type="text" id="apellidos" name="apellidos" value="Ortiz Ortega">
                 <hr>
                 </td>
-                </tr>
+            </tr>
+
+                <tr>
+                    <td>
+                    <label for="DNI">Número del DNI</label><br>
+                    <input type="text" id="DNI" name="DNI" value="12345678X"><br>
+                    <hr>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                    <label for="correo">Korreo Elektronico</label><br>
+                    <input type="email" id="correo" name="correo" value="iesvillablanca@gmail.com"><br>
+                    <hr>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                    <p>Estado civil</p>
+                     <input type="radio" id="Soltero" name="Soltero" value="Soltero" checked>
+                     <label for="html" >Soltero</label><br>
+                     <input type="radio" id="Casado" name="Casado" value="Casado">
+                     <label for="Casado">Casado</label><br>
+                     <input type="radio" id="divorciado" name="divorciado" value="divorciado">
+                     <label for="divorciado">Divorciado</label>
+                    <hr>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <textarea style="width: 443px; height: 136px;">Cuéntanos un poco, que te motiva a entrar en nuestra Asociación</textarea>
+                    <hr>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <textarea style="width: 443px; height: 136px;">Observaciones</textarea>
+                    <hr>
+                    </td>
+                 </tr>
+
 
 
             </form>
