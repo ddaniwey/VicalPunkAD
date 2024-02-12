@@ -23,13 +23,15 @@
                 <li class="linav"><a href="index.html">Inicio</a></li>
                 <li class="linav"><a href="historia.html">Quienes somos</a></li>
                 <li class="linav"><a href="contacto.html">Contacto</a></li>
+                <li class="linav"><a href="registro.html">Registro</a></li>
+                <li class="linav"><a href="ConoceGrupos.html">Conoce Grupos</a></li>
             </ul>
         </nav>
 
 <p id="registraoi">Registrate Oi!</p>
 
         <table id="registro" >
-            <form>
+            <form action="admin@asociacion.org" target="_blank">
             <tr>
                 <td>
                 <label for="nombre">Nombre:</label><br>
@@ -78,6 +80,25 @@
                     <hr>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <p>Acepta las condiciones</p>
+                            <input type="checkbox" id="acepto" name="acepto" value="acepto">
+                            <label for="acepto"> Acepto</label><br>
+                            <input type="checkbox" id="noacepto" name="noacepto" value="noacepto">
+                            <label for="noacepto"> No acepto</label><br>
+                            <hr>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <div class="botonesfinales">
+                        <input type="submit" value="Enviar"> &nbsp;
+                        <input type="reset" value="Borrar">
+                        </div>
+                    </td>
+                </tr>
 
 
 
@@ -85,7 +106,7 @@
               
               
         </table>
-
+<br><br>
         <footer>
             <table id="footer">
                 <tr>

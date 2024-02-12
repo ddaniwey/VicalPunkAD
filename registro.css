@@ -73,7 +73,7 @@ border-style: solid;
 border-color: #ff000038;
 border-collapse: collapse;
 background-color: black;
-margin-right: 200px;
+margin-right: 0px;
 }
 
 #registraoi{
@@ -112,3 +112,13 @@ nav {
 .icons{
     text-align: right;
 }
+
+.botonesfinales{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+table#footer tr td{
+    border-collapse: collapse;
+    width: 91%;
+    }

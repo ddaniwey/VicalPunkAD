@@ -11,48 +11,10 @@ html {
     background-image: url(img/fondopinchos.jpg);
 }
 
-
-table#grupos tr td {
-margin-top: auto;
-border-style: solid;
-border-color: #ff000038;
-border-collapse: collapse;
-}
-tr{
-    color: white;
-    background-color: black;
-}
-
-td{
-    width: 30%;
-    padding: 1%;
-    font-size: 18px;
-}
 .logo{
     margin: auto;
     width: 133px;
 }
-.fotosgrupos{
-    width: 88%;
-    
-    margin-left: 23px;
-}
-.tdfotos{
-    background-color: black;
-}
-.titulos{
-    font-family: Bombing;
-    font-size: 76px;
-    color: red;
-    font-weight: 100;
-}
-
-.canciones{
-    font-family: PunkFearofa;
-    font-size: 26px;
-    color: beige;
-}
-
 .navegador{
     float: left;
     display: block;
@@ -94,12 +56,66 @@ a:active {
 
 }
 
+#Contacta{
+    text-align: center;
+    font-size: 99px;
+    color: white;
+    font-weight: 24;
+    font-family: Bombing;
+    background-color: #000000c0;
+    box-shadow: 9px 9px black;
+}
+
+.contact{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: solid;
+    border-color: greenyellow;
+}
+.correo{
+    color:chartreuse;
+}
+
+.transportspan{
+    color: antiquewhite;
+    
+}
+
+.transportspan2{
+    font-family: bombing;
+    color: greenyellow;
+    margin-left: 21%;
+    font-size: 56px;
+}
+
+
+
+.ubicacion{
+    width: 390px;
+    height: 328px;
+    margin: auto;
+    display: inline;
+    border-color: rgb(22, 163, 24);
+    border-style: dashed;
+}
+
+.texto-mapa {
+    display:inline-block;
+    padding: inherit;
+}
+
+.antifa{
+    margin-left: 20px;
+    height: 177px;
+    display: inline-flex;
+    margin-left: 51px;
+}
+
 
 body { margin-left: 150px;
     margin-right: 150px;
 }    
-
- 
 
 
 header {
@@ -107,8 +123,7 @@ header {
     width: 100%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-    
+
 }    
   
 
@@ -118,24 +133,13 @@ nav {
     color: purple;
 }    
 
-    footer {
-        text-align: right;
-        margin-top: 45px;
-        font-size: large;
-        margin-right: 0px;
-        margin-left: auto;
-
-    }  
-
-    #footer{
-        background-color: black;
-        text-align: right;
-        margin-left: auto;
-        color: greenyellow;
-    }
-    
-
 .icons{
     text-align: right;
 }
 
+table #footer td tr{
+    background-color: black;
+    text-align: right;
+    margin-left: auto;
+    color: greenyellow;
+}
