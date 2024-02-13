@@ -40,7 +40,13 @@ td{
 }
 .fotosgrupos{
     width: 99%;
+transition: transform .2s; 
 }
+     
+.fotosgrupos:hover {
+transform: scale(1.2); 
+}
+
 .tdfotos{
     background-color: black;
 }
@@ -80,6 +86,7 @@ a{
 
 .linav a:hover {
     background-color: red;
+    transition: background-color 0.5s linear;
 }
 a:active {
     color: yellow;

@@ -53,6 +53,7 @@ a{
 
 .linav a:hover {
     background-color: red;
+    transition: background-color 0.5s linear;
 }
 a:active {
     color: yellow;
