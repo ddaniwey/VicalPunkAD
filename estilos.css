@@ -1,116 +1,141 @@
-html {
-    background-image: url(img/fondopinchos.jpg);
-}
+@font-face {
+    font-family: Bombing;
+    src: url(Bombing.ttf);
+  }
+  @font-face {
+    font-family: PunkFearofa;
+    src: url(Fearofapunkplanet.ttf);
+  }
 
-
-body {
+  html {
     background-image: url(fondopinchos.jpg);
-    
-}
-
-aside {
-            float: right;
-            height: 140px;
-            width: 330px;
-            font-size: 20px;
-            border: 7px solid black;
-            margin-right: 20px;
-            border-radius: 25px;
-            color: black;
-            padding: 5px;
-            box-shadow: 5px 5px #783f3f;
-            margin-top: 60px;
-            background-image: url(lluvioso.jpg);
-        }
-    
-
-
-header {
-    background-color: rgba(80, 3, 3, 0.5);
-    width: 100%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-
-
-.h1 { text-align: right;
-    
-
+    font-family:sans-serif;
 }
 
 
-.punk1{
-    width: 400px;
-    height: 150px;
+table#grupos tr td {
+margin-top: auto;
+border-style: solid;
+border-color: #ff000038;
+border-collapse: collapse;
+}
+tr{
+    color: white;
+    background-color: black;
+}
+
+td{
+    width: 30%;
+    padding: 1%;
+    font-size: 18px;
+}
+.logo{
+    margin: auto;
+    width: 133px;
+}
+.fotosgrupos{
+    width: 88%;
+    
+    margin-left: 23px;
+}
+.tdfotos{
+    background-color: black;
+}
+.titulos{
+    font-family: Bombing;
+    font-size: 76px;
+    color: red;
+    font-weight: 100;
+}
+
+.canciones{
+    font-family: PunkFearofa;
+    font-size: 26px;
+    color: beige;
+}
+
+.navegador{
     float: left;
-    padding: 3px;
-}
-
-nav {
-    float: left;
-    width: 10%;
-    height: 800px;
-    color: purple;
-}
-
-
-    
-
-
-
-
-
-p {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
-}
-span {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 1px solid #10ff00;
+    background-color: rgb(0 0 0 / 52%);
+    padding: 5px;
+    box-shadow: -20px -12px #ffffff38;
     font-size: 20px;
 }
 
-
-.cap {
-    width: 800px;
-    height: 300px;
-    position: sticky;
-    margin-left: 200px;
-    margin-right: 100px;
+a{
+    text-decoration: none;
+    padding: 16px;
+    color: rgb(104, 255, 4);
+    text-shadow: 2px, 2px, purple;
+    font-size: 48px;
 }
 
-    .fotos{
-        display: grid;
-        grid-template-areas:
-        'menu main main right's;
-        gap: 0px;
-        grid-template-columns: 4;
+.linav a:hover {
+    background-color: red;
+}
+a:active {
+    color: yellow;
+
+}
+
+.linav{
+    display: inline;
+    padding-left: 10px;
+   
+}
+
+.ulnav{
+   list-style-type: none;
+   margin: 0;
+   padding: 10px;
+
+}
+
+
+body { margin-left: 150px;
+    margin-right: 150px;
+}    
+
+ 
+
+
+header {
+    background-color: rgb(240, 240, 240, 0.5);
+    width: 100%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
-        width: 68%;
-    }
     
-    .fotos2 {
-        width: 800px;
-        height: 300px;
-        position: sticky;
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    
+}    
+  
+
+nav {
+
+    width: 100%;
+    color: purple;
+}    
+
     footer {
         text-align: right;
         margin-top: 45px;
+        font-size: large;
+        margin-right: 0px;
+        margin-left: auto;
+
+    }  
+
+    #footer{
+        background-color: black;
+        text-align: right;
+        margin-left: auto;
+        color: greenyellow;
     }
-
-
     
+
 .icons{
     text-align: right;
 }
-
-
-
-
-
-
-
