@@ -2,12 +2,17 @@
     font-family: Bombing;
     src: url(Bombing.ttf);
   }
-  @font-face {
+@font-face {
     font-family: PunkFearofa;
     src: url(Fearofapunkplanet.ttf);
   }
+@font-face {
+    font-family: Tribal;
+    src: url(xmasxpress.ttf);
+  }
 
-  html {
+
+html {
     background-image: url(img/fondopinchos.jpg);
     font-family:sans-serif;
 }
@@ -16,7 +21,7 @@
 table#grupos tr td {
 margin-top: auto;
 border-style: solid;
-border-color: #ff000038;
+border-color: rgb(64, 255, 0);;
 border-collapse: collapse;
 }
 tr{
@@ -25,7 +30,7 @@ tr{
 }
 
 td{
-    width: 30%;
+    width: 77%;
     padding: 1%;
     font-size: 18px;
 }
@@ -34,9 +39,7 @@ td{
     width: 133px;
 }
 .fotosgrupos{
-    width: 88%;
-    
-    margin-left: 23px;
+    width: 99%;
 }
 .tdfotos{
     background-color: black;
@@ -44,7 +47,7 @@ td{
 .titulos{
     font-family: Bombing;
     font-size: 76px;
-    color: red;
+    color: rgb(64, 255, 0);
     font-weight: 100;
 }
 
@@ -89,9 +92,11 @@ a:active {
 }
 
 .ulnav{
-   list-style-type: none;
-   margin: 0;
-   padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: -1px;
+    font-family: Tribal;
+    letter-spacing: 2px;
 
 }
 
