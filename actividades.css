@@ -75,6 +75,7 @@ a{
     color: rgb(104, 255, 4);
     text-shadow: 2px, 2px, purple;
     font-size: 48px;
+    font-family: tribal;
 }
 
 .linav a:hover {

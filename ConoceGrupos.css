@@ -6,6 +6,10 @@
     font-family: PunkFearofa;
     src: url(Fearofapunkplanet.ttf);
   }
+  @font-face {
+    font-family: Tribal;
+    src: url(xmasxpress.ttf);
+  }
 
   html {
     background-image: url(img/fondopinchos.jpg);
@@ -72,6 +76,7 @@ a{
     color: rgb(104, 255, 4);
     text-shadow: 2px, 2px, purple;
     font-size: 48px;
+    font-family: tribal;
 }
 
 .linav a:hover {
@@ -89,9 +94,11 @@ a:active {
 }
 
 .ulnav{
-   list-style-type: none;
-   margin: 0;
-   padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: -1px;
+    font-family: Tribal;
+    letter-spacing: 2px;
 
 }
 
