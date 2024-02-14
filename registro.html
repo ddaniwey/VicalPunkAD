@@ -7,8 +7,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="img/LogoVikalPunk.jpg">
+        <link rel="icon" href="img/LogoVikalPunk.jpg" class="icon" >
         <link rel="stylesheet" href="registro.css">
+        <script type="text/javaScript" src="javaScript/registro.js"></script>
         <title>Registro</title>
     </head>
 
@@ -31,28 +32,28 @@
 <p id="registraoi">Registrate Oi!</p>
 
         <table id="registro" >
-            <form action="admin@asociacion.org" target="_blank">
+            <form action="admin@asociacion.org"  id="formulario">
             <tr>
                 <td>
                 <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" value="Daniel"><br>
+                <input type="text" id="nombre" name="nombre" value="Daniel" required><br>
                 <label for="lname">Apellidos</label><br>
-                <input type="text" id="apellidos" name="apellidos" value="Ortiz Ortega">
+                <input type="text" id="apellidos" name="apellidos">
                 <hr>
                 </td>
             </tr>
 
                 <tr>
                     <td>
-                    <label for="DNI">Número del DNI</label><br>
-                    <input type="text" id="DNI" name="DNI" value="12345678X"><br>
+                    <label for="DNI">Número del DNI ó NIE</label><br>
+                    <input type="text" id="DNI" name="DNI" required><br>
                     <hr>
                     </td>
                  </tr>
                  <tr>
                     <td>
                     <label for="correo">Korreo Elektronico</label><br>
-                    <input type="email" id="correo" name="correo" value="iesvillablanca@gmail.com"><br>
+                    <input type="email" id="correo" name="correo" value="iesvillablanca@gmail.com" required><br>
                     <hr>
                     </td>
                  </tr>
@@ -80,17 +81,7 @@
                     <hr>
                     </td>
                  </tr>
-                <tr>
-                    <td>
-                        <p>Acepta las condiciones</p>
-                            <input type="checkbox" id="acepto" name="acepto" value="acepto">
-                            <label for="acepto"> Acepto</label><br>
-                            <input type="checkbox" id="noacepto" name="noacepto" value="noacepto">
-                            <label for="noacepto"> No acepto</label><br>
-                            <hr>
-                    </td>
-                    
-                </tr>
+
                 <tr>
                     <td>
                         <div class="botonesfinales">

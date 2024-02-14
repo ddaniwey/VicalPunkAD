@@ -51,8 +51,6 @@ a{
     font-family: tribal;
 }
 
-
-
 .linav a:hover {
     background-color: red;
     transition: background-color 0.5s linear;
@@ -76,8 +74,6 @@ a:active {
     letter-spacing: 2px;
 
 }
-
-
 
 table#registro{
 margin-top: auto;
