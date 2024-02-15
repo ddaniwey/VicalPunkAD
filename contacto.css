@@ -114,7 +114,7 @@ a:active {
     padding: inherit;
 }
 
-.antifa{
+#antifa{
     margin-left: 20px;
     height: 177px;
     display: inline-flex;
@@ -151,4 +151,9 @@ table#footer{
     text-align: right;
     margin-left: auto;
     color: greenyellow;
+}
+
+
+#spanhide{
+    visibility: hidden;
 }

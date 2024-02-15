@@ -32,13 +32,13 @@
 <p id="registraoi">Registrate Oi!</p>
 
         <table id="registro" >
-            <form action="admin@asociacion.org"  id="formulario">
+            <form action="mailto:admin@asociacion.org"  id="formulario">
             <tr>
                 <td>
                 <label for="nombre">Nombre:</label><br>
-                <input type="text" id="nombre" name="nombre" value="Daniel" required><br>
+                <input type="text" id="nombre" name="nombre" placeholder="Daniel" required><br>
                 <label for="lname">Apellidos</label><br>
-                <input type="text" id="apellidos" name="apellidos">
+                <input type="text" id="apellidos" name="apellidos" placeholder="Ortiz Ortega" >
                 <hr>
                 </td>
             </tr>
@@ -53,19 +53,19 @@
                  <tr>
                     <td>
                     <label for="correo">Korreo Elektronico</label><br>
-                    <input type="email" id="correo" name="correo" value="iesvillablanca@gmail.com" required><br>
+                    <input type="email" id="correo" name="correo" placeholder="iesvillablanca@gmail.com" required><br>
                     <hr>
                     </td>
                  </tr>
                  <tr>
                     <td>
                     <p>Estado civil</p>
-                     <input type="radio" id="Soltero" name="Soltero" value="Soltero" checked>
-                     <label for="html" >Soltero</label><br>
-                     <input type="radio" id="Casado" name="Casado" value="Casado">
-                     <label for="Casado">Casado</label><br>
-                     <input type="radio" id="divorciado" name="divorciado" value="divorciado">
-                     <label for="divorciado">Divorciado</label>
+                     <input type="radio" id="Soltero" name="estado-civil" value="Soltero" checked>
+                     <label for="html" >Soltera</label><br>
+                     <input type="radio" id="Casado" name="estado-civil" value="Casado">
+                     <label for="Casado">Casada</label><br>
+                     <input type="radio" id="divorciado" name="estado-civil" value="divorciado">
+                     <label for="divorciado">Divorciada</label>
                     <hr>
                     </td>
                  </tr>
@@ -85,7 +85,7 @@
                 <tr>
                     <td>
                         <div class="botonesfinales">
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Enviar" name="Enviar" onclick="enviar()">
                         <input type="reset" value="Borrar">
                         </div>
                     </td>
