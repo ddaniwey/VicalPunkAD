@@ -9,6 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="img/LogoVikalPunk.jpg">
         <link rel="stylesheet" href="quienessomos.css">
+        <script type="text/javaScript" src="javaScript/quienessomos.js"></script>
         <title>Quienes somos</title>
     </head>
 
@@ -53,33 +54,46 @@
             </p>
         </aside>
         <aside class="asideparrafo" >
-            <img src="img/Agua_Bendita.jpg" alt="Nosotros en el viña" id="viñafoto"  width="200px">
-            <img src="img/AnimalesMuertos.jpg" alt="Foto de Artemis" id="viñaArtemis" width="200px">
-            <img src="img/akelarre.jpg" alt="Foto de Daniel" id="viñaDaniel" width="600px">
+
+            <img id="miImagen1" src="img/orti.jpeg" alt="Tiendas de campaña del Ortigueira"  width="300px" onclick="mostrarTexto('textoOculto1')" >
+            <p id="textoOculto1" style="display: none;">Tiendas de campaña en el Ortigueira-Julio2023</p>
+
+            <img id="miImagen2" src="img/ParadaGasolinera.jpeg" alt="Antes de llegar al viña, en una gasolinera-Abril2023"  width="300px" onclick="mostrarTexto('textoOculto2')" >
+            <p id="textoOculto2" style="display: none;">Antes de llegar al viña, en una gasolinera-Abril2023</p>
+
+            <img id="miImagen3" src="img/ArtemisApolaYo.jpeg" alt="Antes de ir al concierto del grupo Kazo-Mayo2023"  width="300px" onclick="mostrarTexto('textoOculto3')" >
+            <p id="textoOculto3" style="display: none;">Antes de ir al concierto del grupo Kazo-Mayo2023</p>
+
+            <img id="miImagen4" src="img/ArtemisyyoGranada.jpeg" alt="Viaje a Granada Artemis y Yyo-Febrero2023"  width="300px" onclick="mostrarTexto('textoOculto4')" >
+            <p id="textoOculto4" style="display: none;">Viaje a Granada Artemis y yo-Febrero2023</p>
+
+            <img id="miImagen5" src="img/NuestroGrupo.jpeg" alt="Nuestro grupo de amigas-Viña2023"  width="300px" onclick="mostrarTexto('textoOculto5')">
+            <p id="textoOculto5" style="display: none;">Nuestro grupo de amigas-Viña2023</p>
+
         </aside>
         <table class="asideparrafo" >
             <tr><td>
             <span class="texto-nombre" >Artemis</span>
             <hr>
-            <p>Hola! Soy Artemis, y soy capicornio, nacida el 3 de enero, como Amaia de España y Greta la ecologista. 
+            <p>Hola! Soy <b class="texto-b" >Artemis</b>, y soy capicornio, nacida el 3 de enero, como Amaia de España y Greta la ecologista. 
             Mi plan favorito es ir a comer y al cine.   Me encanta comer en el Ikea y encima es veggie y barato, a 2'95 euros el plato
             de albóndigas con puré, guisantes, mermelada sueca y las albóndigas. Actualmente estudio Lingúística e Informática.  </p>
             </td>
             <td>
-            <img src="img/Agua_Bendita.jpg" alt="Artemis" id="artemiss" width="600px" >
+            <img src="img/ArteMiss.jpeg" alt="Artemis" id="artemiss" width="300px" >
                 </td></tr>
                 <tr>
             <td>
             <span class="texto-nombre" >Daniel</span>
             <hr>
-            <p >Holi, yo soy Daniel, soy Virgo, también un signo de tierra. Me considero una persona risueña y con mucha ambición.
+            <p >Holi, yo soy <b>Daniel</b>, soy Virgo, también un signo de tierra. Me considero una persona risueña y con mucha ambición.
             Tengo muchos hobbies y soy muy polivalente, lo que más me gusta hacer en el mundo es tener muchos conocimientos. A parte de eso 
             también me gusta leer libros (novela negra, policiaca, romance, psicología, relatos y el último pero no menos importante fantasía épica)
             tocar la guitarra, jugar juegos de mesa y de rol, reparar todo tipo de consolas, toquetear los componentes y videojuegos... 
             Podría decir muchas cosas pero se quedaría corto, es mejor conocerme. Mis cantantes favorítos son Evaristo y Robe.
         </td>
         <td>
-        <img src="img/Agua_Bendita.jpg" alt="Artemis" id="artemiss" width="600px" >
+        <img src="img/yop.jpeg" alt="Artemis" id="artemiss" width="300px" >
             </td></tr>
             
             </tr>
@@ -88,9 +102,13 @@
             <table id="footer">
                 <tr>
                     <td>
-                        &copy;Villablanca
+                        &copy;
+                        <a href="https://site.educa.madrid.org/ies.villablanca.madrid/" class="afinal" >
+                        Villablanca</a>
                         <p>Artemis Martin</p>
                         <p>Daniel Ortiz</p>
+                        </a>
+
                     </td>
                 </tr>
             </table>

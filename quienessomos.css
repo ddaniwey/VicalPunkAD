@@ -22,7 +22,7 @@ tr{
 }
 
 td{
-    width: 61%;
+    width: 77%;
     padding: 1%;
     font-size: 18px;
 }
@@ -101,7 +101,7 @@ margin-right: 0px;
     font-size: 20px;
     border: solid;
     border-color: greenyellow;
-
+padding: 2%;
 }
 
 body { margin-left: 150px;
@@ -136,7 +136,7 @@ nav {
 
 table#footer tr td{
     border-collapse: collapse;
-    width: 91%;
+    width: 70%;
     }
 
 
@@ -152,3 +152,30 @@ table#footer tr td{
     box-shadow: 9px 9px black;
     }
 
+.asideparrafo img + p{
+    background-color: #10ff00;
+    border: #f2f2f2;
+    font-family: tribal;
+    font-size: 25px;
+}
+
+.asideparrafo img{
+        
+        transition: transform .2s; 
+}
+             
+.asideparrafo img:hover {
+transform: scale(1.1); 
+}
+
+b{
+    color: #10ff00;
+}
+
+.afinal{
+    font-family: Bombing;
+    font-size: 35px;
+    color: #10ff00;
+    margin-left: 0%;
+    padding: 1px;
+}
