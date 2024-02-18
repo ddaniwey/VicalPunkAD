@@ -22,10 +22,11 @@ tr{
 }
 
 td{
-    width: 30%;
+    width: 61%;
     padding: 1%;
     font-size: 18px;
 }
+
 .logo{
     margin: auto;
     width: 133px;
@@ -75,8 +76,6 @@ a:active {
 
 }
 
-
-
 table#registro{
 margin-top: auto;
 border-style: solid;
@@ -86,7 +85,7 @@ background-color: black;
 margin-right: 0px;
 }
 
-#registraoi{
+#quienes{
     text-align: center;
     font-size: 99px;
     color: white;
@@ -96,7 +95,14 @@ margin-right: 0px;
     box-shadow: 9px 9px black;
 }
 
+.asideparrafo{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: solid;
+    border-color: greenyellow;
 
+}
 
 body { margin-left: 150px;
     margin-right: 150px;
@@ -132,3 +138,17 @@ table#footer tr td{
     border-collapse: collapse;
     width: 91%;
     }
+
+
+    #artemiss{
+        display: inline-block;
+    }
+
+    .texto-nombre{
+    font-size: 99px;
+    color: orange;
+    font-weight: 24;
+    font-family: Bombing;
+    box-shadow: 9px 9px black;
+    }
+
